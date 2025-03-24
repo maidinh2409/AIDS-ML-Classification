@@ -1,4 +1,4 @@
-# AIDS-Censoring-ML-Classifiers
+# AIDS-Survivor-ML-Classifiers
 
 -- Dataset: AIDS Clinical Trials Group Study 175
 
