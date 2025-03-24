@@ -8,7 +8,9 @@ This is a dataset from the medical industry that contains data of patients diagn
 
 Tools used: Python
 
-Models: Logistics Regression, Kernel SVM, K-Neighbour Networks, Decision Tree
+Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
+
+Models: Logistics Regression, Kernel Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Decision Tree
 
 ---------------------------------
 **<u><span style="color:gray;">Target & Variables</span></u>**
@@ -69,6 +71,17 @@ Thus, for training models, the following features—***time, cd420, ratio_differ
 
 
 **<u><span style="color:gray;">Model Evaluation</span></u>**
+
+In this section, I chose Recall and F1 instead of a fixed metric. The goal of this project is to find the most usable predictive model, which can:
+
+1. Be applied in medical diagnostics to predict whether a patient will die before the observation time.
+2. Serve as a tool for comparing the effectiveness of the ZDV-only treatment to other treatments, especially with future research extension.
+
+The importance order of metrics is: Recall >> F1 because:
+
+* Accuracy is unreliable with imbalanced data.
+* Recall is most important because it’s critical not to miss actual deaths for diagnostics purpose. Missing a true death is far more problematic than incorrectly predicting someone will die who later survives.
+* F1 is second in importance to balance Recall and Precision. A high Recall with low Precision would result in missing many surviving patients, leading to biased treatment assessments if the model is expanded later.
 
 ***Final Observation:***
 
