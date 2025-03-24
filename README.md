@@ -72,6 +72,15 @@ Thus, for training models, the following features—***time, cd420, ratio_differ
 
 ***Final Observation:***
 
+| Models               | Precision                       | Recall                         | F1                             |
+|----------------------|---------------------------------|--------------------------------|--------------------------------|
+| Logistic Regression   | 0.821293                        | 0.891111                       | 0.854475                       |
+| RBF Kernel            | 0.829823                        | 0.886667                       | 0.857269                       |
+| Polynomial Kernel     | (2, 0.8178640829595191)         | (9, 0.9111111111111111)        | (2, 0.8537477252047315)        |
+| KNN                   | (10, 0.9315845662941326)        | (18, 0.7977777777777778)       | (16, 0.8555398974547911)       |
+| Decision Tree         | (1, 0.8160176229979559)         | (4, 0.9155555555555556)        | (1, 0.845968325129438)         |
+
+
 Based on the evaluation metrics, the following conclusions can be drawn:
 
 1. The best degree for Polynomial SVM is 2, with an F1 score of 0.85 and a Recall of approximately 0.88.
