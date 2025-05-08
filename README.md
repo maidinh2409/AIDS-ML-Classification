@@ -1,8 +1,7 @@
 # AIDS-Survivor-ML-Classifiers
 
 
-![image](https://github.com/user-attachments/assets/f1543a3e-fb6c-4b24-b677-b7aa809da2ab)
-
+![image](https://github.com/user-attachments/assets/37835bbb-fe72-4820-b978-f74e447c73e9)
 
 
 -- Dataset: AIDS Clinical Trials Group Study 175
