@@ -12,9 +12,9 @@
 
 **Tech Stack:**
 
-Languages: Python
-Models: Logistic Regression, KNN, SVM, Decision Tree
-Libraries & Tools: scikit-learn, pandas, matplotlib
+* Languages: Python
+* Models: Logistic Regression, KNN, SVM, Decision Tree
+* Libraries & Tools: scikit-learn, pandas, matplotlib
 
 ---------------------------------
 **<u><span style="color:gray;">Target & Variables</span></u>**
