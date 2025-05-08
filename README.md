@@ -4,7 +4,11 @@
 
 -- Source: https://archive.ics.uci.edu/dataset/890/aids+clinical+trials+group+study+175
 
-**Description:** This project focuses on survival prediction for HIV/AIDS patients based on clinical trial data. Using features such as treatment type and observation period, I applied multiple machine learning classifiers to predict patient outcomes and analyze the effectiveness of ZDV treatment.
+**Description:** 
+
+In the fight against HIV/AIDS, understanding which treatments lead to better patient outcomes is critical. This project explores clinical trial data of patients diagnosed with HIV/AIDS, focusing on survival prediction. Each patient record includes key details—such as whether they received ZDV treatment and how long they were observed. 
+
+Using this data, I applied and compared several machine learning classifiers to predict survival outcomes, aiming to uncover patterns that traditional statistical methods might miss.
 
 **Purpose:** To evaluate the role of machine learning in medical prognosis and investigate treatment differences between ZDV and non-ZDV groups in terms of survival probability.
 
