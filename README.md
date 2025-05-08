@@ -4,13 +4,17 @@
 
 -- Source: https://archive.ics.uci.edu/dataset/890/aids+clinical+trials+group+study+175
 
-This is a dataset from the medical industry that contains data of patients diagnosed with HIV/AIDS who are participating in a study with the goal of observing whether or not each patient died within a certain observation time. The purpose is to examine the performance of two different types of AIDS treatments (with ZDV treatments  and no ZDV treatments)
+**Description:** This project focuses on survival prediction for HIV/AIDS patients based on clinical trial data. Using features such as treatment type and observation period, I applied multiple machine learning classifiers to predict patient outcomes and analyze the effectiveness of ZDV treatment.
 
-Tools used: Python
+**Purpose:** To evaluate the role of machine learning in medical prognosis and investigate treatment differences between ZDV and non-ZDV groups in terms of survival probability.
 
-Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
+**Expected insights:** Reveals patterns in patient survival across treatment groups, demonstrates the predictive capability of various classifiers, and provides interpretable results to support healthcare research.
 
-Models: Logistics Regression, Kernel Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Decision Tree
+**Tech Stack:**
+
+Languages: Python
+Models: Logistic Regression, KNN, SVM, Decision Tree
+Libraries & Tools: scikit-learn, pandas, matplotlib
 
 ---------------------------------
 **<u><span style="color:gray;">Target & Variables</span></u>**
